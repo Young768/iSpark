@@ -1,4 +1,6 @@
 # iSpark -- Flexible Executor Management for Iterative Workloads on Apache Spark
+
+
 #1. Introduction
 ------- 
 we present a flexible utilization aware executor management approach for iterative workloads on Apache Spark (i.e. iSpark).
@@ -19,11 +21,11 @@ Spark 2.3.1, Hadoop 2.8.1, Ubuntu 16.04.2 LTS (Kernel 4.4.0), OpenJDK, Scala 2.1
 
 on each slave ` mkdir tmp`;
 
-#5.Workloads
+#5. Workloads
 ------- 
 We use the the workloads from HiBench![](https://github.com/intel-hadoop/HiBench).
 
-#6. overview of iSpark
+#6. Overview of iSpark
 ------- 
 `iMetricCollector` collects the real-time information (e.g. CPU and memory metrcis) and the operation logic information, i.e. RDD (Resilient Distributed Datasets) dependency, from DAG scheduler. `Monitor` will send the load information of corresponding executors to `iMetricCollector` periodically via the system heartbeat.
 
