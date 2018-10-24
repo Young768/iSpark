@@ -1,0 +1,17 @@
+1. executor.jvmcpuUsage: getCpuTime() return arr[3]
+2. executor.reportHeartBeat: 
+    cpuTime = jvmCpuUsage.getCpuTime()
+    val message = Heartbeat(executorId, accumUpdates.toArray, env.blockManager.blockManagerId, executorUpdates, usage, cpuTime)
+3. MetricGetter.UpdateCpuTimeTbl, GetExecutorCpuTime
+4. heartBeatReceiver:
+    case heartbeat @ Heartbeat(executorId, accumUpdates, blockManagerId, executorMetrics, cpuUsage, cpuTime) =>
+        MetriGetter.UpdateTimeTbl
+5. EventLogging:
+    
+    private long prevJvmProcessCpuTime = 0;
+    private long prevJvmUptime = 0;
+    private long curJvmProcessCpuTime = 0;
+    private long curJvmUptime = 0;
+    private long processorNum = 0;
+
+    MetterGetter.GetExecutorCpuTime
