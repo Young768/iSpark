@@ -5,7 +5,7 @@ we present a flexible utilization aware executor management approach for iterati
 
 #2. Prerequisites
 ------- 
-Spark 2.3.1, Hadoop 2.8.1, Ubuntu 16.04.2 LTS (Kernel 4.4.0), OpenJDK, Scala 2.10.4
+Spark 2.3.1, Hadoop 2.8.1, Ubuntu 16.04.2 LTS (Kernel 4.4.0), OpenJDK, Scala 2.11.6
 
 #3. Buidling iSpark
 ------- 
