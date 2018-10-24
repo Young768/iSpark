@@ -17,7 +17,7 @@ Spark 2.3.1, Hadoop 2.8.1, Ubuntu 16.04.2 LTS (Kernel 4.4.0), OpenJDK, Scala 2.1
 
 ` spark.eventLog.enabled` --`true` ;
 
-on each slave, ` mkdir /tmp`;
+on each slave ` mkdir tmp`;
 
 #5.Workloads
 ------- 
