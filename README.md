@@ -34,6 +34,6 @@ We use the the workloads from HiBench![](https://github.com/intel-hadoop/HiBench
 `iBlockManager` replicates the data blocks on the executors to be removed based on the scheduling decision and the DAG-aware policy provided by `iCacheManager`. When all the data blocks have been replicated, the corresponding executors are marked as unavailable.
 
 
-P.S. The coding work of iController component is still being reorganized.
+P.S. The coding work of `iController` component is still being reorganized.
 
 
