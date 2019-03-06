@@ -1,5 +1,4 @@
-# iSpark -- Elastic Executor Provisioning for Iterative Workloads on
-Apache Spark
+# iSpark -- Elastic Executor Provisioning for Iterative Workloads on Apache Spark
 
 
 #1. Introduction
